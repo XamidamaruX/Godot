@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://b0igbnuqrgpwg"]
+
+[ext_resource type="PackedScene" uid="uid://c038xau8dmf4g" path="res://models/level_1.gltf" id="1_r3fl7"]
+[ext_resource type="PackedScene" uid="uid://bxahiq6xd1ajx" path="res://models/level_2.gltf" id="2_jka67"]
+[ext_resource type="PackedScene" uid="uid://dbaf43dk6srea" path="res://models/chey.gltf" id="3_i5arm"]
+[ext_resource type="PackedScene" uid="uid://ckpnrvevvlfq5" path="res://models/Galant.gltf" id="4_wc5p8"]
+[ext_resource type="PackedScene" uid="uid://d0wa0jcj4bvyn" path="res://models/car.fbx" id="5_jka67"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="level_1" parent="." instance=ExtResource("1_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.468094, 0, 0.456394)
+
+[node name="level_2" parent="." instance=ExtResource("1_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.131956, 0, 7.15643)
+
+[node name="level_3" parent="." instance=ExtResource("1_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.09316, 0, -1.4661)
+
+[node name="level_4" parent="." instance=ExtResource("1_r3fl7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.9081, 0, 2.04736)
+
+[node name="level_5" parent="." instance=ExtResource("2_jka67")]
+transform = Transform3D(0.842556, 0, -0.538609, 0, 1, 0, 0.538609, 0, 0.842556, 25.2237, -0.385866, 20.3053)
+
+[node name="chey" parent="." instance=ExtResource("3_i5arm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.1505, 0, 36.0649)
+
+[node name="Galant" parent="." instance=ExtResource("4_wc5p8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.7394, 0, 47.0446)
+
+[node name="car" parent="." instance=ExtResource("5_jka67")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -35.941, -0.169742, 40.519)
